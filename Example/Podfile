@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'KLUserInfoManager_Example' do
+  pod 'KLUserInfoManager', :path => '../'
+
+  target 'KLUserInfoManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

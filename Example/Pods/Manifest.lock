@@ -1,0 +1,32 @@
+PODS:
+  - KLCache (1.0.0)
+  - KLModel (1.0.0)
+  - KLUserInfoManager (1.0.0):
+    - KLCache (~> 1.0.0)
+    - KLModel (~> 1.0.0)
+  - YKWoodpecker (1.1.1)
+
+DEPENDENCIES:
+  - KLUserInfoManager (from `../`)
+  - YKWoodpecker
+
+SPEC REPOS:
+  https://github.com/Kalanhall/Specs.git:
+    - KLModel
+  trunk:
+    - KLCache
+    - YKWoodpecker
+
+EXTERNAL SOURCES:
+  KLUserInfoManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KLCache: 2b49016cc4eb4a530fd77c0850fc060e3426e5ba
+  KLModel: 68eb4580c629621bec437e2a318101295a2f0965
+  KLUserInfoManager: c82ed1b4fcf3206d7e991e02dca77f6a8027af9d
+  YKWoodpecker: 446884788ccf1f1800781d50e503f9bdb0bdaebe
+
+PODFILE CHECKSUM: 0370f4a1e1dcac8d3f4b86e03e61597b682c0e34
+
+COCOAPODS: 1.8.3

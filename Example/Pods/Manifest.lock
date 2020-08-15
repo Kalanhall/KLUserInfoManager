@@ -1,8 +1,8 @@
 PODS:
-  - KLCache (1.0.0)
+  - KLCache (1.0.1)
   - KLModel (1.0.0)
-  - KLUserInfoManager (1.0.0):
-    - KLCache (~> 1.0.0)
+  - KLUserInfoManager (1.0.2):
+    - KLCache (~> 1.0.1)
     - KLModel (~> 1.0.0)
   - YKWoodpecker (1.1.1)
 
@@ -12,9 +12,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/Kalanhall/Specs.git:
+    - KLCache
     - KLModel
   trunk:
-    - KLCache
     - YKWoodpecker
 
 EXTERNAL SOURCES:
@@ -22,11 +22,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KLCache: 2b49016cc4eb4a530fd77c0850fc060e3426e5ba
+  KLCache: 1bf0c622da8f7e4e3acf2569e1d02e60b11ff6e6
   KLModel: 68eb4580c629621bec437e2a318101295a2f0965
-  KLUserInfoManager: c82ed1b4fcf3206d7e991e02dca77f6a8027af9d
+  KLUserInfoManager: 9dfc99e9374b306acb13f8c30ad06fde51b18736
   YKWoodpecker: 446884788ccf1f1800781d50e503f9bdb0bdaebe
 
 PODFILE CHECKSUM: 0370f4a1e1dcac8d3f4b86e03e61597b682c0e34
 
-COCOAPODS: 1.8.3
+COCOAPODS: 1.9.1

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KLUserInfoManager'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '用户信息管理类'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'KLCache', '~> 1.0.0'
-  s.dependency 'KLModel', '~> 1.0.0'
+  s.dependency 'KLCache'
+  s.dependency 'KLModel'
   
 end

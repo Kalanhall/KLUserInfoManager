@@ -1,6 +1,6 @@
 {
   "name": "KLUserInfoManager",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "用户信息管理类",
   "description": "组件化 - 用户信息管理类",
   "homepage": "https://github.com/Kalanhall",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kalanhall/KLUserInfoManager.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"
@@ -21,7 +21,7 @@
   "source_files": "KLUserInfoManager/Classes/**/*",
   "dependencies": {
     "KLCache": [
-      "~> 1.0.0"
+      "~> 1.0.1"
     ],
     "KLModel": [
       "~> 1.0.0"

@@ -24,7 +24,7 @@ NSString *const com_userinfomanager_value = @"com.userinfomanager.value";
     static KLUserInfoManager *instance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        instance = [[self alloc] init];
+        instance = [[super allocWithZone:NULL] init];
         
         KLCache *cache = [KLCache cacheWithName:com_userinfomanager_key];
         [cache.memoryCache setCountLimit:50];       // 内存最大缓存数据个数
@@ -35,6 +35,14 @@ NSString *const com_userinfomanager_value = @"com.userinfomanager.value";
         instance.cache = cache;
     });
     return instance;
+}
+
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    return self.shareManager;
+}
+
+- (instancetype)copyWithZone:(NSZone *)zone {
+    return self;
 }
 
 - (void)updateObject:(id<NSCoding>)object
